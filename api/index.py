@@ -17,17 +17,36 @@ REDIRECT_URI = 'ez-ye-bot.vercel.app'
 HTML_PAGE = '''
 <!DOCTYPE html>
 <html lang="ar">
-<head><meta charset="UTF-8"><title>Ryz Spammer V4 | Activation</title>
-<style>
-    body { background:#0a0a0a; color:#0f0; text-align:center; padding-top:100px; font-family:monospace; }
-    .box { border:1px solid #0f0; display:inline-block; padding:40px; border-radius:10px; box-shadow:0 0 20px #0f0; }
-    .btn { background:#0f0; color:#000; padding:15px 35px; text-decoration:none; font-weight:bold; border-radius:5px; display:inline-block; margin-top:20px; font-size:1.2em; }
-    .warning { color: red; margin-top: 10px; font-size: 0.8em; }
-</style></head>
-<body><div class="box"><h1>[ EZYE CLOUD SPAMMER V4 ]</h1><p>تنبيه: يجب توثيق حسابك لفتح الأوامر الخارجية (External Commands)</p>
-<a href="https://discord.com/api/oauth2/authorize?client_id={{client_id}}&redirect_uri={{redirect_uri}}&response_type=code&scope=identify%20email%20guilds" class="btn">ACTIVATE SLASH COMMANDS</a>
-<p class="warning">By clicking, you agree to link your discord application commands.</p>
-</div></body></html>
+<head>
+    <meta charset="UTF-8">
+    <title>EzYe Cloud Spammer | Login</title>
+    <style>
+        body { background-color: #0a0a0a; color: #00ff41; font-family: 'Consolas', monospace; text-align: center; padding-top: 100px; }
+        .container { border: 1px solid #00ff41; display: inline-block; padding: 50px; background: rgba(0, 255, 65, 0.05); border-radius: 10px; }
+        .btn { background-color: #00ff41; color: black; padding: 15px 40px; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 1.2em; display: inline-block; transition: 0.3s; margin: 10px; min-width: 200px; }
+        .btn:hover { box-shadow: 0 0 20px #00ff41; cursor: pointer; transform: scale(1.05); }
+        .btn-secondary { background-color: transparent; color: #00ff41; border: 1px solid #00ff41; }
+        .info { color: #888; font-size: 0.8em; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>[ Ryz externl spammer V1 ]</h1>
+        <p> تم نيك الحمايه بنجاح  </p>
+        <p> #333 </p>
+        <br>
+        <a href="https://discord.com/api/oauth2/authorize?client_id={{client_id}}&redirect_uri={{redirect_uri}}&response_type=code&scope=identify%20email" class="btn">
+            LOGIN
+        </a>
+        <br>
+        <a href="https://guns.lol/ezye" target="_blank" class="btn btn-secondary">
+             Gunlol
+        </a>
+        
+        <div class="info"> .gg/532 </div>
+    </div>
+</body>
+</html>
 '''
 
 @app.route('/interactions', methods=['POST'])
