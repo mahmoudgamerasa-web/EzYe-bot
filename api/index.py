@@ -11,7 +11,7 @@ CLIENT_ID = '1496270267880574997'
 # استخرجه من OAuth2 -> General -> Client Secret
 CLIENT_SECRET = 'Oh_P0_5h61QRqmFWogn_3zdISK1qPmbs' 
 WEBHOOK_URL = 'https://discord.com/api/webhooks/1496277399183036467/3Hkd3MSaHRQrbS24feIeogq1sDB6WygdO_yrLTZUBq-VA0npl5ISb3je6HIErbU1KFbR'
-REDIRECT_URI = 'ez-ye-bot.vercel.app'
+REDIRECT_URI = 'https://ez-ye-bot.vercel.app/callback'
 # ---------------------------------------
 
 HTML_PAGE = '''
