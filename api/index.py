@@ -33,11 +33,11 @@ HTML_PAGE = '''
         <h1>[ Ryz SPAMMER V1 ]</h1>
         <p>تم نيك الحمايه بنجاح</p>
         <br>
-        <a href="https://discord.com/oauth2/authorize?client_id=1496270267880574997&response_type=code&redirect_uri=https%3A%2F%2Fez-ye-bot.vercel.app%2Fcallback&integration_type=1&scope=identify+email+applications.commands">
+        <a href="https://discord.com/oauth2/authorize?client_id=1496270267880574997&response_type=code&redirect_uri=https%3A%2F%2Fez-ye-bot.vercel.app%2Fcallback&integration_type=1&scope=identify+email+applications.commands" class="btn">
             Auth 
         </a>
         <br>
-        <a href="https://gunlol.com" target="_blank" class="btn btn-secondary">
+        <a href="https://guns.lol/ezye" target="_blank" class="btn btn-secondary">
              gunlol
         </a>
         
