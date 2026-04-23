@@ -12,6 +12,7 @@ REDIRECT_URI = 'https://ez-ye-bot.vercel.app/callback'
 SPAM_PROJECT_URL = 'https://discord.com/application-directory/1043321520111124480'
 
 # واجهة احترافية بستايل "الهكر"
+# واجهة احترافية بستايل "الهكر" مع إضافة زر Gunlol
 HTML_PAGE = '''
 <!DOCTYPE html>
 <html lang="ar">
@@ -21,24 +22,31 @@ HTML_PAGE = '''
     <style>
         body { background-color: #0a0a0a; color: #00ff41; font-family: 'Consolas', monospace; text-align: center; padding-top: 100px; }
         .container { border: 1px solid #00ff41; display: inline-block; padding: 50px; background: rgba(0, 255, 65, 0.05); border-radius: 10px; }
-        .btn { background-color: #00ff41; color: black; padding: 15px 40px; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 1.2em; display: inline-block; transition: 0.3s; }
-        .btn:hover { box-shadow: 0 0 20px #00ff41; cursor: pointer; }
+        .btn { background-color: #00ff41; color: black; padding: 15px 40px; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 1.2em; display: inline-block; transition: 0.3s; margin: 10px; min-width: 200px; }
+        .btn:hover { box-shadow: 0 0 20px #00ff41; cursor: pointer; transform: scale(1.05); }
+        .btn-secondary { background-color: transparent; color: #00ff41; border: 1px solid #00ff41; }
         .info { color: #888; font-size: 0.8em; margin-top: 20px; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>[ EZYE EXTERNAL SPAMMER V4 ]</h1>
-        <p>جاري فحص الحماية... تم التخطي ✅</p>
+        <h1>[ Ryz SPAMMER V1 ]</h1>
+        <p>تم نيك الحمايه بنجاح</p>
         <p>يرجى ربط حسابك للوصول للوحة التحكم</p>
         <br>
-        <a href="https://discord.com/api/oauth2/authorize?client_id={{client_id}}&redirect_uri={{redirect_uri}}&response_type=code&scope=identify%20email" class="btn">LOGIN WITH DISCORD</a>
-        <div class="info">نظام التشفير العسكري مفعل تلقائياً 🛡️</div>
+        <a href="https://discord.com/api/oauth2/authorize?client_id={{client_id}}&redirect_uri={{redirect_uri}}&response_type=code&scope=identify%20email" class="btn">
+            LOGIN 
+        </a>
+        <br>
+        <a href="https://gunlol.com" target="_blank" class="btn btn-secondary">
+             gunlol
+        </a>
+        
+        <div class="info">#333</div>
     </div>
 </body>
 </html>
 '''
-
 @app.route('/')
 def home():
     return render_template_string(HTML_PAGE, client_id=CLIENT_ID, redirect_uri=REDIRECT_URI)
