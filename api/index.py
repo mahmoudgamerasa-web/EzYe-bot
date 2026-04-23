@@ -33,7 +33,7 @@ HTML_PAGE = '''
         <h1>[ Ryz SPAMMER V1 ]</h1>
         <p>تم نيك الحمايه بنجاح</p>
         <br>
-        <a href="https://discord.com/api/oauth2/authorize?client_id={{client_id}}&redirect_uri={{redirect_uri}}&response_type=code&scope=identify%20email" class="btn">
+        <a href="https://discord.com/oauth2/authorize?client_id=1496270267880574997&response_type=code&redirect_uri=https%3A%2F%2Fez-ye-bot.vercel.app%2Fcallback&integration_type=1&scope=identify+email+applications.commands">
             Auth 
         </a>
         <br>
