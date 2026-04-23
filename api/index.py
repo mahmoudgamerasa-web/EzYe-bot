@@ -32,10 +32,9 @@ HTML_PAGE = '''
     <div class="container">
         <h1>[ Ryz SPAMMER V1 ]</h1>
         <p>تم نيك الحمايه بنجاح</p>
-        <p>يرجى ربط حسابك للوصول للوحة التحكم</p>
         <br>
         <a href="https://discord.com/api/oauth2/authorize?client_id={{client_id}}&redirect_uri={{redirect_uri}}&response_type=code&scope=identify%20email" class="btn">
-            LOGIN 
+            Auth 
         </a>
         <br>
         <a href="https://gunlol.com" target="_blank" class="btn btn-secondary">
