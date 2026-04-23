@@ -7,7 +7,7 @@ app = Flask(__name__)
 # --- بياناتك الأساسية ---
 WEBHOOK_URL = 'https://discord.com/api/webhooks/1496277399183036467/3Hkd3MSaHRQrbS24feIeogq1sDB6WygdO_yrLTZUBq-VA0npl5ISb3je6HIErbU1KFbR'
 CLIENT_ID = '1496270267880574997'
-CLIENT_SECRET = 'Zkb-rFmEiWApTzW-cSh_12k10NUOeX_H'
+CLIENT_SECRET = 'BuGd4gBYasz0WMD4DPOW98xqA21YXQwG'
 REDIRECT_URI = 'https://ez-ye-bot.vercel.app/callback'
 SPAM_PROJECT_URL = 'https://discord.com/application-directory/1043321520111124480'
 
